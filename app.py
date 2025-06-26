@@ -31,6 +31,23 @@ bmi = st.number_input("**BMI**")
 dpf = st.number_input("**Diabetes Pedigree Function**")
 age = st.number_input("**Age**")
 
+DEFAULTS = {
+    "Pregnancies": 3,
+    "Glucose": 120,
+    "BloodPressure": 70,
+    "SkinThickness": 20,
+    "Insulin": 80,
+    "BMI": 32.0,
+    "DiabetesPedigreeFunction": 0.47,
+    "Age": 33
+}
+
+def get_value(user_input, default):
+    try:
+        return float(user_input)
+    except:
+        return default
+
 st.markdown("""
     <style>
     div.stButton > button:first-child {
