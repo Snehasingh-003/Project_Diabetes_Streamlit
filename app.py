@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 
 
 st.title("Diabetes Prediction Site")
-model = pickle.load(open('diabetes_predict.pkl', 'rb'))
+model = pickle.load(open('diabetes_model.pkl', 'rb'))
 
 
 def add_bg():
