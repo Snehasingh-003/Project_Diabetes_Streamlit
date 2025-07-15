@@ -8,13 +8,13 @@ This project aims to predict whether a person is at risk of diabetes based on se
 Diabetes is a chronic disease that affects millions globally. Early detection can prevent severe complications. This project builds a machine learning model to predict the likelihood of diabetes based on patient data and allows users to test the prediction through a web interface.
 
 # Features Used:
-Pregnancies
-Glucose
-Blood Pressure
-Skin Thickness
-Insulin
-BMI
-Diabetes Pedigree Function
+-Pregnancies
+-Glucose,
+Blood Pressure,
+Skin Thickness,
+Insulin,
+BMI,
+Diabetes Pedigree Function,
 Age
 
 # Machine Learning Techniques:
