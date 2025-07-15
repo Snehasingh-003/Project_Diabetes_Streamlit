@@ -16,19 +16,23 @@ Insulin,
 BMI,
 Diabetes Pedigree Function,
 Age
+### Machine Learning Techniques:
 
-# Machine Learning Techniques:
-1.Exploratory Data Analysis (EDA using seaborn/matplotlib),
-2.Model Building:
-   K-Nearest Neighbors (KNN)
-   Decision Tree Classifier
-3.Model Evaluation:
-   Accuracy Score
-   Confusion Matrix
-   Classification Report
+1. **Exploratory Data Analysis**
+   - Used `seaborn` and `matplotlib` for visualizations
 
-# Tech Stack:
-Language: Python
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
-Web App: Streamlit
-Deployment: Streamlit
+2. **Model Building**
+   - K-Nearest Neighbors (KNN)
+   - Decision Tree Classifier
+
+3. **Model Evaluation**
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report
+
+### Tech Stack:
+
+- **Language:** Python  
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn  
+- **Web App Framework:** Streamlit  
+- **Deployment:** Streamlit Cloud
